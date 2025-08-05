@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Message = require('../models/message');
+const Message = require('../models/Message');
 
 // POST - Save Message
 router.post('/', async (req, res) => {
