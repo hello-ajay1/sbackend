@@ -9,6 +9,8 @@ const businessSchema = new mongoose.Schema({
   email: { type: String, required: true },
   website: { type: String },
   image: { type: String },
+  isBlocked: { type: Boolean, default: false },
+  isApproved: { type: Boolean, default: false },
   createdAt: {
     type: Date,
     default: Date.now
